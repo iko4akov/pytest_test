@@ -21,12 +21,3 @@ def test_slice():
     assert arrs.my_slice([], 2) == []
     assert arrs.my_slice([1, 2], -4) == [1, 2]
     assert arrs.my_slice([1, 2], -1) == [2]
-
-
-
-#poetry add -G dev pytest-cov
-#pytest —cov — при активированном виртуальном окружении.
-#poetry run pytest —cov — через Poetry.
-# pytest —cov=src —cov-report=html чтобы сгенерировать отчет о покрытии в
-# pytest --cov src --cov-report term-missing
-#
